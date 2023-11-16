@@ -1,9 +1,12 @@
-//
-// Created by David Onofrei on 09.11.2023.
-//
+#pragma once
 
-#ifndef MYBOOSTPROJECT_HTTPSERVER_H
-#define MYBOOSTPROJECT_HTTPSERVER_H
+#include <string>
 
-//TO_ADD
-#endif //MYBOOSTPROJECT_HTTPSERVER_H
+class HTTPServer {
+public:
+
+    void establishConnection(const std::string& url);
+    void terminateConnection(const std::string& url);
+
+};
+

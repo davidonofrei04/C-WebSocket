@@ -1,7 +1,8 @@
-//
-// Created by David Onofrei on 09.11.2023.
-//
-
 #include "DataStream.h"
+#include <iostream>
 
-//TO_ADD
+void DataStream::sendData(const std::string& data) {
+
+    std::cout << "Sending data: " << data << std::endl;
+
+}

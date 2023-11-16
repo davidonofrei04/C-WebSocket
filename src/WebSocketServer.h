@@ -1,10 +1,10 @@
-//
-// Created by David Onofrei on 09.11.2023.
-//
+#pragma once
 
-#ifndef MYBOOSTPROJECT_WEBSOCKETSERVER_H
-#define MYBOOSTPROJECT_WEBSOCKETSERVER_H
+#include <string>
 
-//TO_ADD
+class WebSocketServer {
+public:
 
-#endif //MYBOOSTPROJECT_WEBSOCKETSERVER_H
+    void handleWebSocket(const std::string& data);
+
+};

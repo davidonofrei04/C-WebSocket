@@ -1,7 +1,8 @@
-//
-// Created by David Onofrei on 09.11.2023.
-//
-
 #include "WebSocketServer.h"
+#include <iostream>
 
-//TO_ADD
+void WebSocketServer::handleWebSocket(const std::string& data) {
+
+    std::cout << "Handling WebSocket data: " << data << std::endl;
+
+}

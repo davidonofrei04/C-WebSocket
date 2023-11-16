@@ -1,10 +1,11 @@
-//
-// Created by David Onofrei on 09.11.2023.
-//
+#pragma once
 
-#ifndef MYBOOSTPROJECT_DATASTREAM_H
-#define MYBOOSTPROJECT_DATASTREAM_H
+#include <string>
 
-//TO_ADD
+class DataStream {
+public:
 
-#endif //MYBOOSTPROJECT_DATASTREAM_H
+    void sendData(const std::string& data);
+
+};
+

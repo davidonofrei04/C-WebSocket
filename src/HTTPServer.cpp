@@ -1,7 +1,11 @@
-//
-// Created by David Onofrei on 09.11.2023.
-//
-
 #include "HTTPServer.h"
+#include <iostream>
 
-//TO_ADD
+void HTTPServer::establishConnection(const std::string& url) {
+
+    std::cout << "Establishing HTTP connection to: " << url << std::endl;
+}
+
+void HTTPServer::terminateConnection(const std::string& url) {
+    std::cout << "Terminating HTTP connection to: " << url << std::endl;
+}
