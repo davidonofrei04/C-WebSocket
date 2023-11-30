@@ -8,4 +8,3 @@ public:
     void sendData(const std::string& data);
 
 };
-

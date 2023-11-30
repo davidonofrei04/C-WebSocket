@@ -9,7 +9,6 @@ int main() {
     WebSocketServer webSocketServer;
 
     dataStream.sendData("Sample data");
-    httpServer.establishConnection("sample_url");
     httpServer.terminateConnection("sample_url");
     webSocketServer.handleWebSocket("WebSocket data");
 
