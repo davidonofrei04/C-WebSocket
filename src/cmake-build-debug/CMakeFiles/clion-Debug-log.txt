@@ -1,4 +1,1 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/davidonofrei/Desktop/dev/C-WebSocket/src -B /Users/davidonofrei/Desktop/dev/C-WebSocket/src/cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/davidonofrei/Desktop/dev/C-WebSocket/src/cmake-build-debug
+CMakeLists.txt not found in /Users/davidonofrei/Desktop/dev/C-WebSocket/src Select CMakeLists.txt

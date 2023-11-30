@@ -1,3 +1,0 @@
-/Users/davidonofrei/Desktop/dev/C-WebSocket/src/cmake-build-debug/CMakeFiles/MyBoostProject.dir
-/Users/davidonofrei/Desktop/dev/C-WebSocket/src/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/davidonofrei/Desktop/dev/C-WebSocket/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
